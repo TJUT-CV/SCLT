@@ -44,7 +44,7 @@ The ```debug``` parameter can be used to control the level of debug visualizatio
 ### Note
 - If you met the error `ImportError: libcudart.so.11.0: cannot open shared object file: No such file or directory`, please run `sudo cp /usr/local/cuda/lib64/libcudart.so.11.0 /usr/local/lib/libcudart.so.11.0 && sudo ldconfig`.
 - If you met the error `RuntimeError: cuDNN error: CUDNN_STATUS_INTERNAL_ERROR`, please run `sudo rm ~/.nv`.
-- If your tracker stopped with no clear information in the log, and the log stops at `Using /tmp/torch_extensions as PyTorch extensions root...`, please `python -c "from ltr.external.PreciseRoIPooling.pytorch.prroi_pool.functional import _import_prroi_pooling; _import_prroi_pooling()"` in you local path of `<tracker-path>` in `sclt` virtual environment.
+- If your tracker stopped with no clear information in the log, and the log stops at `Using /tmp/torch_extensions as PyTorch extensions root...`, please `python -c "from ltr.external.PreciseRoIPooling.pytorch.prroi_pool.functional import _import_prroi_pooling; _import_prroi_pooling()"` in you local path of `<tracker-path>` in `sclt` virtual environment. 
 
 
 ## Results
