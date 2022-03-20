@@ -132,7 +132,7 @@ python -c "from pytracking.evaluation.environment import create_default_local_fi
 python -c "from ltr.admin.environment import create_default_local_file; create_default_local_file()"
 python -c "from ltr.external.PreciseRoIPooling.pytorch.prroi_pool.functional import _import_prroi_pooling; _import_prroi_pooling()"
 
-echo "Download the default network for stre_model and super_dimp etc."
+echo "Download the default network."
 gdown https://drive.google.com/file/d/1nF6heqbW4NEujCFNhDaaKGZpu8Uhywz2/view?usp=sharing -O pytracking/networks/qg_rcnn_r50_fpn_coco_got10k_lasot.pth
 gdown https://drive.google.com/file/d/1s5Rk31RTSIzjs1mjkE-ps8Mr4eP0wEYi/view?usp=sharing -O pytracking/networks/metric_model.pth
 gdown https://drive.google.com/file/d/1-_bGTbjMnsOak4dKqAFVgThuU56cesgg/view?usp=sharing -O pytracking/networks/super_dimp.pth.tar
