@@ -54,3 +54,5 @@ The ```debug``` parameter can be used to control the level of debug visualizatio
 - [VOTLT(2021)](https://drive.google.com/file/d/1wfMeYNpwRKy_4DDANRREpFZrAyJxLHri/view?usp=sharing)
 
 
+## Acknowledgment
+Our SCLT tracker is based on [PyTracking](https://github.com/visionml/pytracking). We sincerely thank their authors for providing great frameworks and toolkits.
