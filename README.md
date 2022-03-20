@@ -48,7 +48,6 @@ The ```debug``` parameter can be used to control the level of debug visualizatio
 
 
 ## Results
-### LTMU
 - [LaSOT](https://drive.google.com/file/d/1j4WuhAbWp7JK9kHeuVbKBE_O3lywuOCR/view?usp=sharing)
 - [TLP](https://drive.google.com/file/d/1MffQG5n8mBj-6_-nLIhd6nTCHoJ6bYLE/view?usp=sharing)
 - [VOT2021LT](https://drive.google.com/file/d/1wfMeYNpwRKy_4DDANRREpFZrAyJxLHri/view?usp=sharing)
