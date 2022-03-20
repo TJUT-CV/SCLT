@@ -5,7 +5,7 @@
 
 
 ### Demo
-Demo video: [YouTube](https://youtu.be/b_4Yi5r3kGM), [Bilibili](https://www.bilibili.com/video/BV1ky4y1s7fH).
+Demo video: [YouTube](https://youtu.be/b_4Yi5r3kGM), [Bilibili](https://b23.tv/dN1CJF5).
 
 
 ### Hardware
