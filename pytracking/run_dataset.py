@@ -1,0 +1,17 @@
+import os
+if __name__ == '__main__':
+    str1=('python run_tracker.py sclt sclt --dataset_name lasot --gpu_id 0')
+    print(str1)
+    os.system(str1)
+    str2=('python run_tracker.py sclt sclt --dataset_name oxuva_dev --gpu_id 0')
+    print(str2)
+    os.system(str2)
+    str3=('python run_tracker.py sclt sclt --dataset_name tlp --gpu_id 0')
+    print(str3)
+    os.system(str3)
+    str4=('python run_tracker.py sclt sclt_votlt --dataset_name vot2021_lt --gpu_id 0')
+    print(str4)
+    os.system(str4)
+    str5 = ('vot evaluate --workspace /workspace_path/VOT2021LT/ SCLT')
+    print(str5)
+    os.system(str5)
